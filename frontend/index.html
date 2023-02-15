@@ -48,7 +48,9 @@
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+	         <li><a class="smoothscroll" href="#certifications">Certifications</a></li>
+            <li><a class="smoothscroll" href="#work">Work</a></li>
+            
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
@@ -59,7 +61,6 @@
             
             <p>and this page has been viewed <a id="counter"></a> times :) </p> 
             <ul class="social">
-               <li><a href="https://maybecreateawebsite><i class="fa fa-external-link"></i></a></li>
                <li><a href="https://www.linkedin.com/in/sanel-pihic-b3b509114/"><i class="fa fa-linkedin"></i></a></li>
                <li><a href="https://github.com/sanelpihic"><i class="fa fa-github"></i></a></li>
                <li><a href="mailto:sanel.pihic@gmail.com"><i class="fa fa-envelope"></i></a></li>
@@ -98,7 +99,8 @@
       </br>
        After working extensively with several technologies in the Azure Cloud and wanting to challenge myself with a small passion project, 
        I figured that I could create myself a landing page for my resume.
-       The tech stack used for this site is HTML, JavaScript, Azure Blob Storage, Azure Functions and CosmosDB. 
+       The frontend tech stack used for the creation of this site is HTML & CSS & JavaScript, 
+       The backend tech stack is CosmosDB, Azure Storage and Azure Functions with C# to enable a serverless API.
        The CI/CD is managed through GitHub Actions. HTTPS and custom domain is enabled through Azure CDN.
    
             
@@ -110,9 +112,11 @@
    </section> <!-- About Section End-->
 
 
-   <!-- Resume Section
+   <!-- Certifications Section
    ================================================== -->
-   <section id="resume">
+   <section id="certifications">
+ 
+
 
       <!-- Education
       ----------------------------------------------- -->
@@ -139,7 +143,7 @@
 
                <div class="twelve columns">
 
-                  <h3><span style="color: lightblue;">AZ-104</span> Azure Administrator Associate</h3>
+                  <h3><span style="color: blue;">AZ-104</span> Azure Administrator Associate</h3>
         <p class="info"><em class="date">September 2022</em></p>
 
                </div>
@@ -150,7 +154,7 @@
 
                <div class="twelve columns">
 
-                  <h3><span style="color: lightblue;">AZ-900</span> Azure Fundamentals</h3>
+                  <h3><span style="color: blue;">AZ-900</span> Azure Fundamentals</h3>
                   <p class="info"><em class="date">October 2021</em></p>
 
                </div>
@@ -161,7 +165,7 @@
 
                <div class="twelve columns">
 
-                  <h3><span style="color: lightblue;">MS-900</span> Microsoft 365 Fundamentals</h3>
+                  <h3><span style="color: blue;">MS-900</span> Microsoft 365 Fundamentals</h3>
                   <p class="info"><em class="date">October 2021</em></p>
 
                </div>
@@ -171,10 +175,11 @@
          </div> <!-- main-col end -->
 
       </div> <!-- End Education -->
-
+   </section>
 
       <!-- Work
       ----------------------------------------------- -->
+      <section id="work">
       <div class="row work">
 
          <div class="three columns header-col">
@@ -188,11 +193,9 @@
                <div class="twelve columns">
 
                   <h3>Atea</h3>
-                  <p class="info">Cloud Engineer & Security Architect <span>&bull;</span> <em class="date">January 2023 - Present</em></p>
+                  <p class="info">Cloud Engineer & Security Consultant <span>&bull;</span> <em class="date">Jan 2023 - Present</em></p>
 
-                  <p>
-                  <li>Consultant</li> 
-                  </p>
+               
 
                </div>
 
@@ -203,15 +206,15 @@
                <div class="twelve columns">
 
                   <h3>Ironstone</h3>
-                  <p class="info">Cloud Engineer <span>&bull;</span> <em class="date">January 2021 - December 2022</em></p>
+                  <p class="info">Cloud Engineer <span>&bull;</span> <em class="date">Jan 2021 - Dec 2022</em></p>
 
                   <p>
-                     <li>Developed managed services</li>
+                     <li>Developed managed services.</li>
                      <li>Integrated third-party cloud applications to extend functionalities of Azure.</li>
-                     <li>CI/CD with Azure DevOps</li>
-                     <li>Cloud Automation with PowerShell, Runbooks, Azure Functions & Logic Apps</li>
-                     <li>Consultancy & Advisory services to a multitude of customers</li>
-                     <li>3rd line support (Azure & M365)</li>
+                     <li>CI/CD with Azure DevOps.</li>
+                     <li>Cloud Automation with PowerShell, Runbooks, Azure Functions & Logic Apps.</li>
+                     <li>Consultancy & Advisory services to a multitude of customers.</li>
+                     <li>3rd line support (Azure & M365).</li>
                      <li>Responsible for automation in internal ITSM-system.</li>
                   </p>
 
@@ -247,7 +250,7 @@
 
 
 
-   </section> <!-- Resume Section End-->
+   </section> <!-- Work Section End-->
 
       
 

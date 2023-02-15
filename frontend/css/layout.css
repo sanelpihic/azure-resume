@@ -231,55 +231,106 @@ ul#nav li.current a { color: #F06000; }
 }
 
 
-/* ------------------------------------------------------------------ */
-/* d. Resume Section
+
+/* ------------------------------------------------------------------ /
+/ d. Certifications Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#certifications {
    background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
+   padding-top: 70px;
+   padding-bottom: 20px;
    overflow: hidden;
-}
-
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
-
-#resume h1 {
+   }
+   
+   #certifications a, #certifications a:visited { color: #11ABB0; }
+   #certifications a:hover, #certifications a:focus { color: #313131; }
+   
+   #certifications h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-}
-#resume h1 span {
+   }
+   #certifications h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
-}
-#resume h3 {
+   }
+   #certifications h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
-}
-
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
-
-.education, .work {
+   }
+   
+   #certifications .header-col { padding-top: 9px; }
+   #certifications .main-col { padding-right: 10%; }
+   
+   .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
-}
-#resume .info {
+   }
+   #certifications .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
-}
-#resume .info span {
+   }
+   #certifications .info span {
    margin-right: 5px;
    margin-left: 5px;
-}
-#resume .date {
+   }
+   #certifications .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
-}
+   }
+
+
+   /* ------------------------------------------------------------------ /
+/ d. Work Section
+/* ------------------------------------------------------------------ */
+
+#work {
+   background: #fff;
+   padding-bottom: 20px;
+   overflow: hidden;
+   }
+   
+   #work a, #work a:visited { color: #11ABB0; }
+   #work a:hover, #work a:focus { color: #313131; }
+   
+   #work h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   }
+   #work h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+   }
+   #work h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   }
+   
+   #work .header-col { padding-top: 9px; }
+   #work .main-col { padding-right: 10%; }
+   
+   .education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+   }
+   #work .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+   }
+   #work .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+   }
+   #work .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+   }
 
 /*----------------------------------------------*/
 /*	Skill Bars
