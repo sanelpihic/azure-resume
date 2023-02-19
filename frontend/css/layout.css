@@ -259,7 +259,7 @@ ul#nav li.current a { color: #F06000; }
    font: 25px/30px 'opensans-bold', sans-serif;
    }
    
-   #certifications .header-col { padding-top: 9px; }
+   #certifications .header-col { padding-top: 0px; }
    #certifications .main-col { padding-right: 10%; }
    
    .education, .work {
@@ -309,7 +309,7 @@ ul#nav li.current a { color: #F06000; }
    font: 25px/30px 'opensans-bold', sans-serif;
    }
    
-   #work .header-col { padding-top: 9px; }
+   #work .header-col { padding-top: 0px; }
    #work .main-col { padding-right: 10%; }
    
    .education, .work {
