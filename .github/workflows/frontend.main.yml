@@ -2,7 +2,7 @@ name: deploy_frontend_openid
 
 on:
     push:
-        branches: [ main ]
+        Environment: [ Prod ]
         paths:
         - 'frontend/**'
 
