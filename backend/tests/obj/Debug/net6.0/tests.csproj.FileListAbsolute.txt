@@ -1,0 +1,6 @@
+C:\Users\Adminsanel\AzResumeWebpage\azure-resume\backend\tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Adminsanel\AzResumeWebpage\azure-resume\backend\tests\obj\Debug\net6.0\tests.csproj.AssemblyReference.cache
+C:\Users\Adminsanel\AzResumeWebpage\azure-resume\backend\tests\obj\Debug\net6.0\tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adminsanel\AzResumeWebpage\azure-resume\backend\tests\obj\Debug\net6.0\tests.AssemblyInfoInputs.cache
+C:\Users\Adminsanel\AzResumeWebpage\azure-resume\backend\tests\obj\Debug\net6.0\tests.AssemblyInfo.cs
+C:\Users\Adminsanel\AzResumeWebpage\azure-resume\backend\tests\obj\Debug\net6.0\tests.csproj.CoreCompileInputs.cache
