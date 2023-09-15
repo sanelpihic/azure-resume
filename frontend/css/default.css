@@ -825,6 +825,20 @@ properly.
 	text-align: center !important;
 }
 
+.bullet-list {
+   list-style-type: disc;
+   padding-left: 1px;
+}
+
+.bullet-list li {
+   margin-bottom: 9px;
+}
+
+.bullet-list li ul {
+   list-style-type: circle;
+}
+
+
 
 
 
